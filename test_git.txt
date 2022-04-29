@@ -1,5 +1,9 @@
-esta es una prueba
-para el curso de git
+esta es la prueba para varios modulos
+para el curso de git a traves de platzi
 
 
 aqui estoy modificando con code
+
+:)
+
+esto es interesante
