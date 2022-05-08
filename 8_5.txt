@@ -1,9 +1,10 @@
 Pruebas de hoy 8 de mayo
 
 Se hizo la pueba de init
-luego touch
+luego touch para crear el archivo
 
-se hizo git status para ver el status del los archivos. 
+
+se hizo git status para ver el status del archivos. 
 $ git status
 On branch master
 Changes not staged for commit:
@@ -19,7 +20,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 
 
-Se hizo un git add .
+Se hizo un git add . (se agregaron los dos archivos)
 $ git status
 On branch master
 Changes to be committed:
@@ -36,3 +37,57 @@ Changes not staged for commit:
 
 Encontramos en esta esta en staging pero no se ha hecho comit. 
 
+
+#### despues de haber hecho varios cambios encontramos que despues del commit se tiene un unico archivo
+
+commit f98c0c741c0e3c810f18b63647e4779f034d7039 (HEAD -> master)
+Author: Omar Caires <Omar.Caires@gmail.com>
+Date:   Sun May 8 12:13:36 2022 -0300
+
+    primeros pasos
+
+diff --git a/8_5.txt b/8_5.txt
+new file mode 100644
+index 0000000..edc776a
+--- /dev/null
++++ b/8_5.txt
+@@ -0,0 +1,38 @@
++Pruebas de hoy 8 de mayo
++
++Se hizo la pueba de init
++luego touch
++
++se hizo git status para ver el status del los archivos.
++$ git status
++On branch master
++Changes not staged for commit:
++  (use "git add <file>..." to update what will be committed)
++  (use "git restore <file>..." to discard changes in working directory)
++        modified:   test_git.txt
++
++Untracked files:
++  (use "git add <file>..." to include in what will be committed)
++        8_5.txt
++
++no changes added to commit (use "git add" and/or "git commit -a")
++
++
++
++Se hizo un git add .
++$ git status
++On branch master
++Changes to be committed:
++  (use "git restore --staged <file>..." to unstage)
++        new file:   8_5.txt
++        modified:   test_git.txt
+
+ocaires@NITD3074 MINGW64 ~/proyecto1 (master)
+$ git log 8_5.txt
+commit f98c0c741c0e3c810f18b63647e4779f034d7039 (HEAD -> master)
+Author: Omar Caires <Omar.Caires@gmail.com>
+Date:   Sun May 8 12:13:36 2022 -0300
+
+    primeros pasos
+
+ocaires@NITD3074 MINGW64 ~/proyecto1 (master)
+$
