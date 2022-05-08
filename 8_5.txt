@@ -1,4 +1,6 @@
 Pruebas de hoy 8 de mayo
+por indicaciones d ela linea de abajo. 
+hacer algo
 
 Se hizo la pueba de init
 luego touch para crear el archivo
@@ -37,8 +39,8 @@ Changes not staged for commit:
 
 Encontramos en esta esta en staging pero no se ha hecho comit. 
 
-
-#### despues de haber hecho varios cambios encontramos que despues del commit se tiene un unico archivo
+borrar estos ##
+ despues de haber hecho varios cambios encontramos que despues del commit se tiene un unico archivo
 
 commit f98c0c741c0e3c810f18b63647e4779f034d7039 (HEAD -> master)
 Author: Omar Caires <Omar.Caires@gmail.com>
@@ -96,3 +98,4 @@ $
 
 Acabamos de crear 2 carpeta para el proyecto html
 
+Continuamos con otros cambios. y voy a hacer un cambio en la linea 2 del documento. 
