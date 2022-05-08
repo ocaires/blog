@@ -1,0 +1,38 @@
+Pruebas de hoy 8 de mayo
+
+Se hizo la pueba de init
+luego touch
+
+se hizo git status para ver el status del los archivos. 
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test_git.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        8_5.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+
+Se hizo un git add .
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   8_5.txt
+        modified:   test_git.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   8_5.txt
+
+
+
+Encontramos en esta esta en staging pero no se ha hecho comit. 
+
